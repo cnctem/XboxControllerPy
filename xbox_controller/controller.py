@@ -1,6 +1,7 @@
 import pygame
 import time
 import sys
+from .utils import format_axis_value
 
 class XboxController:
     """
@@ -155,11 +156,6 @@ class XboxController:
     def __exit__(self, exc_type, exc_val, exc_tb):
         """Context manager exit"""
         self.disconnect()
-
-
-def format_axis_value(value):
-    """Format axis value to 3 decimal places"""
-    return f"{value:7.3f}"
 
 
 def get_controller_state(joystick, buttons, axes):
