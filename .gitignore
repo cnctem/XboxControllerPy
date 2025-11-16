@@ -157,3 +157,5 @@ cython_debug/
 #  project, please sync the .gitignore with the one from the PyChain template repository
 #  at https://github.com/PyChain/template
 .idea/
+.vscode/
+.DS_Store
