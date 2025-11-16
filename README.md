@@ -1,6 +1,6 @@
 # XboxControllerPy
 
-[\[ 都给我去看中文文档 \]](README_zh.md)
+[\[ 中文文档 \]](README_zh.md)
 
 A Python package for reading and handling Xbox controller input using pygame.
 

@@ -25,7 +25,7 @@ button_names = {
 
 ## 安装
 
-### pip 安装（学术蝗虫没脸发布，愿者发布 在此授权）
+### pip 安装（若已发布）
 ```bash
 pip install xbox-controller-py
 ```
